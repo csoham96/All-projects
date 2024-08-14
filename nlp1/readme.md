@@ -31,3 +31,12 @@ Example Usage
 ```bash
 python main.py
 ```
+
+## Evaluation
+Metrics such as Real-Time Factor (RTF) for measuring the time taken by the model to transcribe speech relative to the length of the speech input and,
+
+BLEU Score: Measures overlap between generated and reference responses is measured
+to run evaluation
+```bash
+python eval.py
+```
